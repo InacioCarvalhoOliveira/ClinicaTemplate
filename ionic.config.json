@@ -1,0 +1,7 @@
+{
+  "name": "ClinicaTemplate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

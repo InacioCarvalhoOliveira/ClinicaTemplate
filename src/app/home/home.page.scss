@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -16,12 +15,21 @@
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
 }
+.text-center {
+  text-align: center;
+}
+
+#custom-toolbar ion-toolbar {
+  --ion-color-custom: #416966; /* Define your custom color */
+  --ion-background-color: var(--ion-color-custom); /* Use the custom color as the background color */
+}
+ion-note {
+  display: block;
+} 
